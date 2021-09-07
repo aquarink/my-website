@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap';
 // import { Container, Row } from 'react-bootstrap'
@@ -29,6 +30,13 @@ import bootstrap from '../images/bootstrap.png'
 import web from '../images/web.png'
 import aws from '../images/aws.png'
 import gcp from '../images/gcp.png'
+
+import sosGithub from '../images/sosial/github.png'
+import sosGitlab from '../images/sosial/gitlab.png'
+import sosGuru from '../images/sosial/gurushoot.png'
+import sosIg from '../images/sosial/instagram.png'
+import sosYt from '../images/sosial/youtube.png'
+import sosWeb from '../images/sosial/web.png'
 
 class Home extends Component {
     componentDidMount() {
@@ -64,94 +72,141 @@ class Home extends Component {
                     <hr />
                     <Container>
                         <Row>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={flutter} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={reactNative} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={firebase} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={springBoot} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={php} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={codeIgniter} thumbnail />
                             </Col>
-                        </Row>
+                        {/* </Row>
                         <br />
                         <br />
-                        <Row>
-                            <Col xs={6} md={2}>
+                        <Row> */}
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={bootstrap} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={nodejs} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={expressjs} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={laravel} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={web} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={mysql} thumbnail />
                             </Col>
-                        </Row>
+                        {/* </Row>
                         <br />
                         <br />
-                        <Row>
-                            <Col xs={6} md={2}>
+                        <Row> */}
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={mariadb} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={mongodb} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={redis} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={proxmox} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={git} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={github} thumbnail />
                             </Col>
-                        </Row>
+                        {/* </Row>
                         <br />
                         <br />
-                        <Row>
-                            <Col xs={6} md={2}>
+                        <Row> */}
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={gitlab} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={centos} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={reactJs} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={linux} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={aws} thumbnail />
                             </Col>
-                            <Col xs={6} md={2}>
+                            <Col className="padingThumb" xs={6} md={2}>
                                 <Image style={{ width: 200 }} src={gcp} thumbnail />
                             </Col>
                         </Row>
                         <hr />
-                        <br />
-                        <br />
+                        {/* SOSIAL */}
+                        <Container>
+                            <Row>
+                                <h4 style={{ textAlign: 'center' }}>network</h4>
+                                <br />
+                                <br />
+                                <Col md={2}></Col>
+
+                                <Col md={8}>
+                                    <Row>
+                                        <Col xs={2} md={2}>
+                                            <a href="http://bit.ly/GitPebri" target="_blank">
+                                                <Image style={{ width: 40 }} src={sosGithub} thumbnail />
+                                            </a>
+                                        </Col>
+                                        <Col xs={2} md={2}>
+                                            <a href="http://bit.ly/GitlabPebr" target="_blank">
+                                                <Image style={{ width: 40 }} src={sosGitlab} thumbnail />
+                                            </a>
+                                        </Col>
+                                        <Col xs={2} md={2}>
+                                            <a href="http://bit.ly/GuruShoot" target="_blank">
+                                                <Image style={{ width: 40 }} src={sosGuru} thumbnail />
+                                            </a>
+                                        </Col>
+                                        <Col xs={2} md={2}>
+                                            <a href="https://bit.ly/IgPebri" target="_blank">
+                                                <Image style={{ width: 40 }} src={sosIg} thumbnail />
+                                            </a>
+                                        </Col>
+                                        <Col xs={2} md={2}>
+                                            <a href="https://bit.ly/CnlYtb" target="_blank">
+                                                <Image style={{ width: 40 }} src={sosYt} thumbnail />
+                                            </a>
+                                        </Col>
+                                        <Col xs={2} md={2}>
+                                            <a href="https://bit.ly/WaktuWeb" target="_blank">
+                                                <Image style={{ width: 40 }} src={sosWeb} thumbnail />
+                                            </a>
+                                        </Col>
+                                    </Row>
+                                </Col>
+
+                                <Col md={2}></Col>
+                            </Row>
+                            <hr />
+                            <br />
+                            <br />
+                        </Container>
                     </Container>
                 </div>
             </main>

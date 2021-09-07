@@ -25,6 +25,9 @@ import sekundoFront from '../images/portofolio/sekundo-front.PNG'
 import smsNew from '../images/portofolio/sms-new.PNG'
 import smsOld from '../images/portofolio/sms-old.PNG'
 import waktuOld from '../images/portofolio/waktu-old.PNG'
+import akila from '../images/portofolio/akila.PNG'
+import ptsambara from '../images/portofolio/ptsambara.PNG'
+import ragiljayateknik from '../images/portofolio/ragiljayateknik.PNG'
 
 class Portofolio extends Component {
     render() {
@@ -47,6 +50,60 @@ class Portofolio extends Component {
                                         <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">React Js</button>
                                         <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
                                         <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* FRELEANCE */}
+                    <div className="col">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={akila} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>Akila Dental</b> dental clinic apps.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">PHP</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">AdminLTE</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={ragiljayateknik} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>Ragil Jaya Teknik</b> company profile.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">PHP</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">cPanel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={ptsambara} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>PT Sambara</b> company profile.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">PHP</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">cPanel</button>
                                     </div>
                                 </div>
                             </div>
@@ -488,7 +545,7 @@ class Portofolio extends Component {
                                         <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MySQL</button>
                                         <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Bootstrap Admin</button>
                                         <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Centos 6 / 7</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Apache / Httpd</button>
+                                        {/* <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Apache / Httpd</button> */}
                                     </div>
                                 </div>
                             </div>
@@ -497,7 +554,7 @@ class Portofolio extends Component {
                 </div>
 
                 <div className="md-12 otherRead">
-                    <b>In addition to what I've done above, there are also many things that I do about software development and this can be 
+                    <b>In addition to what I've done above, there are also many things that I do about software development and this can be
                         seen on <a href="https://github.com/aquarink">Github</a> and <a href="https://gitlab.com/junkuwieazy">Gitlab</a>. Thanks</b>
                 </div>
             </div>

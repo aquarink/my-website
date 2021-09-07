@@ -124,7 +124,7 @@ class Profile extends Component {
                     </Container>
                 </div>
 
-                {/* <div className={this.state.formDiv ? 'hiddenElm' : undefined}> */}
+                <div className={this.state.formDiv ? 'hiddenElm' : undefined}>
                 <Container >
                         <Row>
                             <Col xs={6} md={2}></Col>
@@ -136,7 +136,7 @@ class Profile extends Component {
                             <Col xs={6} md={2}></Col>
                         </Row>
                     </Container>
-                {/* </div> */}
+                </div>
             </Fragment>
         );
     }
