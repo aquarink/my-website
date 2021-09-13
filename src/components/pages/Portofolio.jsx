@@ -28,6 +28,8 @@ import waktuOld from '../images/portofolio/waktu-old.PNG'
 import akila from '../images/portofolio/akila.PNG'
 import ptsambara from '../images/portofolio/ptsambara.PNG'
 import ragiljayateknik from '../images/portofolio/ragiljayateknik.PNG'
+import dharmasiswa from '../images/portofolio/dharmasiswa.PNG'
+import appsekolah from '../images/portofolio/appsekolah.PNG'
 
 class Portofolio extends Component {
     render() {
@@ -38,7 +40,7 @@ class Portofolio extends Component {
             <div className="container">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     {/* MY WEB */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={myWeb} thumbnail />
                             <div className="card-body">
@@ -55,8 +57,47 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
+                    {/* SEKOLAH */}
+                    <div className="col bg-info">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={appsekolah} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>School Website Template</b> for school website.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">PHP</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Bootstrap</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col bg-info">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={dharmasiswa} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>Dharma Siswa Tangerang</b> school website.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">PHP</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Wordpress</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     {/* FRELEANCE */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={akila} thumbnail />
                             <div className="card-body">
@@ -75,7 +116,7 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={ragiljayateknik} thumbnail />
                             <div className="card-body">
@@ -92,7 +133,7 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - My Website" style={{ width: mWidth, height: 206.64 }} src={ptsambara} thumbnail />
                             <div className="card-body">
@@ -110,26 +151,7 @@ class Portofolio extends Component {
                         </div>
                     </div>
                     {/* QUEGO NEW */}
-                    <div className="col">
-                        <div className="card shadow-sm">
-                            <Image alt="Juri Pebrianto - Quego API" style={{ width: mWidth, height: 206.64 }} src={quegoApi} thumbnail />
-                            <div className="card-body">
-                                <p className="card-text">
-                                    <b>Quego API</b> API's for QueGo (new version) mobile app.
-                                </p>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <div className="md-12">
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">PHP</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Quego CMS" style={{ width: mWidth, height: 206.64 }} src={quegoCms} thumbnail />
                             <div className="card-body">
@@ -149,7 +171,26 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-success">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - Quego API" style={{ width: mWidth, height: 206.64 }} src={quegoApi} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>Quego API</b> API's for QueGo (new version) mobile app.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">PHP</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col bg-success">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Quego Mobile App" style={{ width: mWidth, height: 206.64 }} src={quegoApp} thumbnail />
                             <div className="card-body">
@@ -167,7 +208,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* MOBIWIN WEB */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Mobiwin Website" style={{ width: mWidth, height: 206.64 }} src={mobiwin} thumbnail />
                             <div className="card-body">
@@ -189,7 +230,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* WAKTU */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Waktu Website" style={{ width: mWidth, height: 206.64 }} src={waktuFront} thumbnail />
                             <div className="card-body">
@@ -209,7 +250,7 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Waktu CMS" style={{ width: mWidth, height: 206.64 }} src={waktuCms} thumbnail />
                             <div className="card-body">
@@ -231,7 +272,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* CMS NEW */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - SMS Gateway New" style={{ width: mWidth, height: 206.64 }} src={smsNew} thumbnail />
                             <div className="card-body">
@@ -253,27 +294,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* MOMOKA */}
-                    <div className="col">
-                        <div className="card shadow-sm">
-                            <Image alt="Juri Pebrianto - Momoka Games API" style={{ width: mWidth, height: 206.64 }} src={momokaApi} thumbnail />
-                            <div className="card-body">
-                                <p className="card-text">
-                                    <b>Momoka Games API</b> API's and CMS for Momoka mobile app.
-                                </p>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <div className="md-12">
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Php</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Websocket</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Momoka Games Website" style={{ width: mWidth, height: 206.64 }} src={momokaWeb} thumbnail />
                             <div className="card-body">
@@ -294,7 +315,27 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-success">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - Momoka Games API" style={{ width: mWidth, height: 206.64 }} src={momokaApi} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>Momoka Games API</b> API's and CMS for Momoka mobile app.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Php</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Websocket</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col bg-success">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Momoka Games Mobile App" style={{ width: mWidth, height: 206.64 }} src={momokaApp} thumbnail />
                             <div className="card-body">
@@ -313,7 +354,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* QUEGO V1 */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Quego Versi 1 Website" style={{ width: mWidth, height: 206.64 }} src={quegoWeb} thumbnail />
                             <div className="card-body">
@@ -331,26 +372,7 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
-                        <div className="card shadow-sm">
-                            <Image alt="Juri Pebrianto - Quego Versi 1 API" style={{ width: mWidth, height: 206.64 }} src={quegoApi1} thumbnail />
-                            <div className="card-body">
-                                <p className="card-text">
-                                    <b>Quego Versi 1 API</b> API's for mobile app.
-                                </p>
-                                <div className="d-flex justify-content-between align-items-center">
-                                    <div className="md-12">
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Php</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
-                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Quego Versi 1 CMS" style={{ width: mWidth, height: 206.64 }} src={quegoCms1} thumbnail />
                             <div className="card-body">
@@ -369,7 +391,26 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-success">
+                        <div className="card shadow-sm">
+                            <Image alt="Juri Pebrianto - Quego Versi 1 API" style={{ width: mWidth, height: 206.64 }} src={quegoApi1} thumbnail />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    <b>Quego Versi 1 API</b> API's for mobile app.
+                                </p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <div className="md-12">
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Php</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Codeigneter</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">MariaDB</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">CentOs 7</button>
+                                        <button type="button" className="md-1 mrgRightBtn btn btn-sm btn-outline-secondary">Nginx</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col bg-success">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Quego Versi 1 Mobile App" style={{ width: mWidth, height: 206.64 }} src={quegoApp1} thumbnail />
                             <div className="card-body">
@@ -387,7 +428,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* FURAK */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Furak Website" style={{ width: mWidth, height: 206.64 }} src={furakFront} thumbnail />
                             <div className="card-body">
@@ -407,7 +448,7 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Furak CMS" style={{ width: mWidth, height: 206.64 }} src={furakCms} thumbnail />
                             <div className="card-body">
@@ -429,7 +470,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* SEKUNDO */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Sekundo News Website" style={{ width: mWidth, height: 206.64 }} src={sekundoFront} thumbnail />
                             <div className="card-body">
@@ -449,7 +490,7 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Sekundo News CMS" style={{ width: mWidth, height: 206.64 }} src={sekundoCms} thumbnail />
                             <div className="card-body">
@@ -471,7 +512,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* WAKTU OLD */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Waktu Versi 1" style={{ width: mWidth, height: 206.64 }} src={waktuOld} thumbnail />
                             <div className="card-body">
@@ -491,7 +532,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* GAME SERU */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Game Konten Website" style={{ width: mWidth, height: 206.64 }} src={gameseruFront} thumbnail />
                             <div className="card-body">
@@ -510,7 +551,7 @@ class Portofolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - Game Konten CMS" style={{ width: mWidth, height: 206.64 }} src={gameseruCms} thumbnail />
                             <div className="card-body">
@@ -531,7 +572,7 @@ class Portofolio extends Component {
                     </div>
 
                     {/* SMS OLD */}
-                    <div className="col">
+                    <div className="col bg-info">
                         <div className="card shadow-sm">
                             <Image alt="Juri Pebrianto - SMS Gateway Old Version" style={{ width: mWidth, height: 206.64 }} src={smsOld} thumbnail />
                             <div className="card-body">
@@ -554,7 +595,10 @@ class Portofolio extends Component {
                 </div>
 
                 <div className="md-12 otherRead">
-                    <b>In addition to what I've done above, there are also many things that I do about software development and this can be
+                    <p>
+                        <b class="text-success">Mobile / API's</b> || <b class="text-info">Website</b>
+                    </p>
+                    <b>In addition to what I haveve done above, there are also many things that I do about software development and this can be
                         seen on <a href="https://github.com/aquarink">Github</a> and <a href="https://gitlab.com/junkuwieazy">Gitlab</a>. Thanks</b>
                 </div>
             </div>

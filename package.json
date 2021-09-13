@@ -1,7 +1,7 @@
 {
   "name": "coba-web2",
   "version": "0.1.0",
-  "homepage": "https://aquarink.github.io/",
+  "homepage": "https://juripebrianto.waktu.my.id/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
